@@ -1,0 +1,16 @@
+# Пользователь вводит две буквы. Определить, на каких местах алфавита они стоят, и сколько между ними находится букв.
+'''https://drive.google.com/file/d/1yNwwU4vWMmfXi17yFbd9IoJFULIvORfw/view?usp=sharing'''
+
+first = ord(input('Введите одну букву английского алфавита : '))
+second = ord(input('Введите вторую букву английского алфавита : '))
+
+first = first - ord('a') + 1
+second = second - ord('a') + 1
+print(f'Порядковый номер 1-й буквы = {first}, {second}')
+print(f'Порядковый номер 2-й буквы = {first}, {second}')
+print(f'Число букв между введёнными буквами: {abs(first - second) - 1}')
+
+list_1 = 'abcd..xyz'
+import string
+a = string.ascii_lowercase
+print(a)
