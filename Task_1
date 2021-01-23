@@ -1,0 +1,13 @@
+# Найти сумму и произведение цифр трехзначного числа, которое вводит пользователь.
+'''https://drive.google.com/file/d/1yNwwU4vWMmfXi17yFbd9IoJFULIvORfw/view?usp=sharing'''
+
+num = input('Введите натуральное трёхзначное число: ')
+
+num = int(num)
+a = num // 100
+b = num // 100
+c = num // 100
+summary = a + b + c
+
+print(f'Сумма = {summary}')
+print(f'Произведение = {a * b * c}')
