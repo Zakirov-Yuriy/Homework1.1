@@ -1,0 +1,6 @@
+# Пользователь вводит номер буквы в алфавите. Определить, какая это буква.
+'''https://drive.google.com/file/d/1yNwwU4vWMmfXi17yFbd9IoJFULIvORfw/view?usp=sharing'''
+
+num = int(input('Введите порядковый номер буквы в английском алфавите (1-26): '))
+num = ord('a') + num - 1
+print(f'Это буква {chr(num)}')
