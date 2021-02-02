@@ -1,0 +1,10 @@
+num = input('Введите натуральное трёхзначное число: ')
+
+num = int(num)
+a = num // 100
+b = num // 100
+c = num // 100
+summary = a + b + c
+
+print(f'Сумма = {summary}')
+print(f'Произведение = {a * b * c}')
